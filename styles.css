@@ -15,7 +15,11 @@
 .flex{
     display: flex;
 }
-
+.wave{
+    background: linear-gradient(#F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    color: transparent;
+    background-clip: text;
+}
 .text-color{ 
     color: #FFFFFF;
 }
@@ -35,6 +39,14 @@ hr {
     opacity: 10%;
 }
 
+.style-none {
+    color: #FFFFFF;
+    opacity: 60%;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
 /* individual styles */
 
 /* header styles */
@@ -52,11 +64,7 @@ nav {
 .nav-header{
     font-size: 3rem;
 }
-nav .wave{
-    background: linear-gradient(#F7E93F 0%, #FB09B4 51%, #9100F8 100%);
-    color: transparent;
-    background-clip: text;
-}
+
 nav ul {
     list-style: none;
     justify-content: space-between;
@@ -411,3 +419,33 @@ nav ul li a{
     height: 20px;
 }
 
+/* footer styles */
+footer{
+    background-image: url(./B13-A02-TechWave/assets/footer-bg.png);
+    height: 412px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.footer-header {
+    font-size: 4rem;
+    margin-bottom: 32px;
+}
+
+.footer-social{
+    list-style: none;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.footer-container p{
+    justify-content: center;
+    opacity: 60%;
+}
