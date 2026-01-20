@@ -315,6 +315,10 @@ nav ul li a{
 
 /* episodes section */
 
+.episodes-container{
+    margin-bottom: 120px;
+}
+
 .episodes-container h2{
     font-size: 3rem;
     font-weight: 700;
@@ -362,3 +366,48 @@ nav ul li a{
     font-size: 1rem;
     font-weight: 600;
 }
+
+/* host section */
+
+.host-header{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.host{
+    background-color: #3511656a;
+    gap: 24px;
+}
+.host-img {
+    margin: 40px 40px 0px;
+}
+.host-info .name{
+    margin-top: 48.5px;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.host-info p{
+    opacity: 60%;
+    line-height: 24px;
+    margin-bottom: 16px;
+    width: 896px;
+}
+.social ul{
+    list-style: none;   
+    align-items: center;
+    gap: 8px;
+}
+.social a{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #533C72;
+    border-radius: 50%;
+}
+.social a img{
+    width: 20px;
+    height: 20px;
+}
+
