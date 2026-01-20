@@ -30,6 +30,11 @@
     background: linear-gradient(106deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
 }
 
+hr {
+    border: 1px solid #FFFFFF;
+    opacity: 10%;
+}
+
 /* individual styles */
 
 /* header styles */
@@ -60,10 +65,6 @@ nav ul {
 nav ul li a{
     text-decoration: none;
     font-weight: 500;
-}
-header hr {
-    border: 1px solid #FFFFFF;
-    opacity: 30%;
 }
 
 /* banner styles */
@@ -136,4 +137,46 @@ header hr {
     color: #00FF88;
     background: none;
     height: 44px;
+}
+
+/* about podcast */
+
+.about-podcast{
+    background-color: #1A0B2E;
+}
+.about-section{
+    padding: 50px 200px 120px;
+    text-align: center;
+}
+.about-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+.about-text{
+    text-align: center;
+    font-weight: 400;
+    opacity: 80%;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.about-join{
+    opacity: 80%;
+    margin-bottom: 80px;
+}
+.about-cards {
+    margin-top: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.card h3{
+    font-size: 3rem;
+    color: #00FF88;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+.card p{
+    font-weight: 400;
+    opacity: 80%;
 }
