@@ -180,3 +180,185 @@ nav ul li a{
     font-weight: 400;
     opacity: 80%;
 }
+
+/* why choose techwave section  */
+
+.choose{
+    background-color: #230E3D;
+    padding: 120px 200px;
+    height: 1121px;
+}
+
+.choose-header{
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.choose-layout{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, minmax(250px, auto));
+}
+
+.choose-layout .Audio{
+    background-color: #351165;
+    grid-column: span 1;
+    grid-row: span 2;
+    border-radius: 15px;
+}
+.Audio img{
+    margin: 112.5px 285px 21px 45px;
+}
+.Audio h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+    margin-left: 40px;
+}
+.Audio p{
+    width: 300px;
+    margin-left: 40px;
+    font-size: 1rem;
+    opacity: 60%;
+}
+.choose-layout .Mobile{
+    background-color: #351165;
+    grid-column: span 2;
+    grid-row: span 1;
+    border-radius: 15px;
+}
+.Mobile img{
+    margin: 42.5px 700px 18.5px 50px;
+}
+.Mobile h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+    margin-left: 40px;
+}
+.Mobile p{
+    margin-left: 40px;
+    font-size: 1rem;
+    opacity: 60%;
+}
+.choose-layout .Community{
+    background-color: #351165;
+    grid-column: span 2;
+    grid-row: span 1;
+    border-radius: 15px;
+}
+.Community img{
+    margin: 40px 690px 16px 40px;
+}
+.Community h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+    margin-left: 40px;
+}
+.Community p{
+    margin-left: 40px;
+    font-size: 1rem;
+    opacity: 60%;
+}
+.choose-layout .Interviews{
+    background-color: #351165;
+    grid-column: span 2;
+    grid-row: span 1;
+    border-radius: 15px;
+}
+.Interviews img{
+    margin: 40px 690px 16px 40px;
+}
+.Interviews h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+    margin-left: 40px;
+}
+.Interviews p{
+    margin-left: 40px;
+    font-size: 1rem;
+    opacity: 60%;
+}
+.choose-layout .Rewards{
+    background-color: #351165;
+    grid-column: span 1;
+    grid-row: span 1;
+    border-radius: 15px;
+}
+
+.Rewards img{
+    margin: 40px 280px 16px 40px;
+}
+.Rewards h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+    margin-left: 40px;
+}
+.Rewards p{
+    margin-left: 40px;
+    font-size: 1rem;
+    opacity: 60%;
+}
+
+/* episodes and host section */
+
+.episodes-host{
+    padding: 120px 200px;   
+    background-color: #1A0B2E; 
+}
+
+/* episodes section */
+
+.episodes-container h2{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.episodes-cards{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.episodes-cards .card{
+    width: 380px;
+    height: 440px;
+    background-color: #250D44;
+    border-radius: 20px;
+}
+
+.episodes-cards .card iframe {
+    width: 380px;
+    height: 214px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 24px 24px 12px;
+}
+.card p {
+    font-weight: 400;
+    opacity: 60%;
+    margin: 0px 24px 12px 24px;
+}
+.time{
+    margin: 0px 24px 24px;
+}
+.time img{
+    height: 20px;
+    width: 20px;
+}
+.time p {
+    color: #00FF88;
+    font-size: 1rem;
+    font-weight: 600;
+}
