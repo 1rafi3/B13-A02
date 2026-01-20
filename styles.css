@@ -47,6 +47,25 @@ hr {
     margin-left: 8px;
 }
 
+/* button animation */
+
+button {
+    transition: all 0.50s ease;
+}
+
+button:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 20px rgba(238, 0, 255, 0.3);
+}
+
+button:active {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(237, 2, 2, 0.3);
+}
+
+
+
+
 /* individual styles */
 
 /* header styles */
